@@ -1,0 +1,73 @@
+name: opentune
+description: Cliente de YouTube Music con Material Design 3 para Android e iOS
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Design
+  material_color_utilities: ^0.8.0
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  palette_generator: ^0.3.3+3
+  blur: ^3.1.0
+  lottie: ^2.7.0
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Navigation
+  go_router: ^13.0.0
+
+  # Audio Player
+  just_audio: ^0.9.36
+  just_audio_background: ^0.0.1-beta.11
+  audio_session: ^0.1.18
+
+  # Networking
+  http: ^1.1.0
+  dio: ^5.4.0
+
+  # Storage
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.2
+
+  # Media
+  media_kit: ^1.1.10
+  media_kit_video: ^1.2.4
+  media_kit_libs_native_video: ^1.0.2
+
+  # Lyrics
+  flutter_lyric: ^3.0.4
+
+  # Utils
+  url_launcher: ^6.2.3
+  share_plus: ^7.2.1
+  path_provider: ^2.1.2
+  permission_handler: ^11.2.0
+  connectivity_plus: ^5.0.2
+  package_info_plus: ^5.0.1
+  intl: ^0.19.0
+  encrypt: ^5.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  riverpod_generator: ^2.3.9
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
