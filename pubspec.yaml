@@ -45,9 +45,6 @@ dependencies:
   media_kit_video: ^1.2.4
   media_kit_libs_native_video: ^1.0.2
 
-  # Lyrics
-  flutter_lyric: ^3.0.4
-
   # Utils
   url_launcher: ^6.2.3
   share_plus: ^7.2.1
